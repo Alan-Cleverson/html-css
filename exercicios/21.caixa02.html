@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        h1 {
+            box-shadow: inset 0px 0px 7px rgba(0, 0, 0, 0.199);
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+                }
+        nav {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 4px 3px 7px rgba(0, 0, 0, 0.493);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            margin-right: 30px;
+        }
+                
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 7px 3px 8px rgba(0, 0, 0, 0.486);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 4px 3px 9px rgba(0, 0, 0, 0.452);
+
+        }
+        article > aside {
+            background-color: rgb(173, 171, 171);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        } 
+        footer > p {
+            margin: 4px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <ul>
+            <li><a href="@">Link</a></li>
+            <li><a href="@">Link</a></li> 
+            <li><a href="@">Link</a></li>
+            <li><a href="@">Link</a></li> 
+            <li><a href="@">Link</a></li> 
+        </ul>
+        </nav>
+
+    </header>
+    <main>
+        <sectio id="assuntos">
+            <p>Esporte politica tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Voluptate eum beatae distinctio nihil unde fuga nesciunt <br>
+                    dolores asperiores a amet! Deleniti atque eligendi voluptatibus 
+                    sdebitis maiores repudiandae optio, ratione dolorem!</p>
+
+                <aside>
+                    <p>Artigo criado por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso emvideo</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

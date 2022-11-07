@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Mídias em HTML5</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes 
+        ou simplesmente aumente ou diminua o tamanho do seu navegador.
+    </p>
+           
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+         <!-- esses mecanismos permitem a imagem adaptar de acordo com o tamanho da deeta.
+            Ex.: tanto faz o acesso de um celular, notbook ou tv a imagem a´vai adaptar o tamanho
+            da tela.-->
+    </picture>
+    <br>
+    <h2>Reproduzindo audio</h2>
+    <p> Vamos aprender a reproduzir videos em HTML</p>
+    <audio src="imagens/True Love.mp3" controls autoplay></audio> <!-- alguns formatos de audio
+    mp3, wav, OGG-->
+    <h2>Outra opção</h2>
+    
+    <audio preload="metadata" autoplay controls> <!-- e tem loop
+         e para o arquivo recomecar quando acabar-->
+       <source src="imagens/True Love.mp3" type="audio/mpeg">
+        <source src="imagens/True Love.ogg" type="audio/ogg">
+        <source src="imagens/True Love.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compatível com o audio.
+             <a href="imagens/True Love.mp3">Clique aqui para baixar o arquivo mp3.</a>
+            </p>
+    </audio>
+   
+    <h2>Videos com HTML5</h2>
+    <h3>Inserindo videos hospedados localmente</h3>
+    <p>Este video esta hospedado no meu proprio servidor.</p>
+
+    <video controls>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XqvgSJQt_OI" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Seu navegador nao tem compatibilidade com a reprodução do video.</p>
+    </video>
+    <video controls>
+        <source src="https://www.youtube.com/embed/XqvgSJQt_OI" type="video/mp4">
+    </video>
+
+</body>
+</html>

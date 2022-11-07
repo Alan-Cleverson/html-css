@@ -1,0 +1,18 @@
+@charcet "UTF-8";
+/*
+
+body{
+    background-color: rgba(112, 255, 46, 0.719);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+#principal {
+    text-align: center;
+}
+
+h2{
+    color: rgb(5, 32, 5);
+}

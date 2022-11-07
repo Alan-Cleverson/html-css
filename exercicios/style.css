@@ -1,0 +1,22 @@
+<style>
+@charset "UTF8";
+body{
+    background-image: green, orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    color:red;
+    background-color:darkgreen;
+}
+h2{
+    font-size: 1.5em;
+    color:rgb(230, 230, 0);
+}
+p{
+    color: black;
+    text-align: justify;
+}
+
+</style>

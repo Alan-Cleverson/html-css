@@ -1,0 +1,43 @@
+/*  #  = id
+    .  = class
+    :  = pseodo-class
+    :: = pseodo-element
+    +  = clildren
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+color: red;
+text-decoration: none;
+}/* editar escrita do link*/
+
+a:visited {
+    color: darkred;
+} /* quando o link ja foi visitado */
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+} /* animação de quando passa o mouse por cima*/
+
+a:active {
+    color: yellow;
+}/*quando o link está ativo ou clicado.*/
+
+.especial {
+    background-color: rgba(255, 96, 96, 0.637);
+    color: black;
+}
+
+.especial::before{
+    content: '=> ';
+}
+.especial::after {
+    content: '[link]';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkgray;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fontes em CSS </title>
+    
+    <style>
+        body{
+            /*
+            'CSS saife fonts combinations' para 
+            para encontrar combinações de fontes compativeis com diferentes 
+            dispositivos (pc, celulares, etc.) 
+            */
+            font-family: work sans, Arial, Helvetica, sans-serif; 
+           
+            /*
+            medidas absolutas
+            cm, mm, in, px, pt, pc (in-polegada, pt-ponto, pc-paica)
+
+            medidas relativas
+            em, ex, rem, vw, vh, %(em- medida ao tamanhon da fonte, 
+            ex- tamnho da altura x de um elemento)
+            geralmente `1em`=`16px`
+            */
+            font-size: 1em; 
+            /*weight-peso da fonte, width- laargura, heigth-altura*/
+            font-weight: bolder;
+            font-style: italic; 
+            /*lighter normal bold bolder*/
+            }
+
+            h1 {
+            
+            /* shorthand font            
+            font-style -> font-weight -> font-size -> font-family*/
+
+                /*font-family: arial;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            font: italic bolder 3em, arial;
+            }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quidem, 
+        placeat excepturi ab velit ratione quo distinctio eveniet nam architecto 
+        quisquam blanditiis accusamus repudiandae molestiae? Cum, doloribus! 
+        Necessitatibus, veritatis commodi? Lorem ipsum dolor sit amet consectetur 
+        adipisicing elit. Qui vitae deserunt quae exercitationem quibusdam unde alias! 
+        Temporibus impedit enim voluptatibus architecto illo, nulla perferendis deleniti 
+        expedita debitis labore, praesentium doloremque!</p>
+     
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor est, dolorum quaerat 
+        ipsam itaque quis laudantium minima ipsa dolores ad sunt debitis sapiente illum soluta 
+        totam voluptates nostrum tempore? Ipsum.</p>  
+    
+        <h2>Subtítulo do exercicio</h2>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptate 
+            soluta aliquam corporis totam pariatur adipisci ullam, ipsam expedita qui porro, 
+            explicabo, at quisquam fuga dolores iste atque natus harum. Lorem, ipsum dolor 
+            sit amet consectetur adipisicing elit. Aliquam architecto a corrupti in aspernatur, 
+            cumque ex perspiciatis atque vel praesentium dolorum possimus? Nisi aut officiis 
+            sapiente perspiciatis autem possimus mollitia.</p>
+
+</body>
+</html>
