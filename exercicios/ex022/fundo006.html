@@ -7,19 +7,27 @@
     <title>Fundo fixo de tela</title>
     <style>
 body {
-    height: 100vh;
+    /*height: 100vh;
     background-color: black;
     background-image: url("imagens/wallpaper002.jpg");
     background-position: center center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
+    /* shorthand - background
+    color > image > position > repeat > [size] 
+    > attachment
+    */
+
+    background: black url("imagens/wallpaper002.jpg") 
+    center center no-repeat fixed;
+    background-size: cover;
 }
 
 main {
     background-color: white;
-    max-width: 700px;
+    max-width: 400px;
     padding: 10px;
     margin: auto;
     border: 1px solid darkblue;
@@ -31,6 +39,26 @@ main {
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero exercitationem 
+            officiis amet error molestiae esse ducimus nam culpa ratione, laboriosam nulla similique aliquid 
+            dicta corrupti, illum explicabo, deleniti necessitatibus. Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Unde, officia iure aliquid fugit maxime perspiciatis at repellendus enim porro 
+            officiis eius sit aut mollitia cum reprehenderit dolores alias iste provident! Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Quod laborum quis ea fugiat reprehenderit veniam deleniti 
+            minus delectus minima. At amet unde delectus veniam earum placeat deserunt consequuntur incidunt 
+            sequi? 
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero exercitationem 
+            officiis amet error molestiae esse ducimus nam culpa ratione, laboriosam nulla similique aliquid 
+            dicta corrupti, illum explicabo, deleniti necessitatibus. Lorem ipsum dolor, sit amet consectetur 
+            adipisicing elit. Unde, officia iure aliquid fugit maxime perspiciatis at repellendus enim porro 
+            officiis eius sit aut mollitia cum reprehenderit dolores alias iste provident! Lorem ipsum dolor 
+            sit amet consectetur adipisicing elit. Quod laborum quis ea fugiat reprehenderit veniam deleniti 
+            minus delectus minima. At amet unde delectus veniam earum placeat deserunt consequuntur incidunt 
+            sequi? 
+        </p>
         <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium libero exercitationem 
             officiis amet error molestiae esse ducimus nam culpa ratione, laboriosam nulla similique aliquid 
