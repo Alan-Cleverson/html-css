@@ -44,7 +44,7 @@ img {
 }
 
 img#phone {
-   
+   display: block;
 }
 
 img#tablet {
