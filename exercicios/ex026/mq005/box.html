@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caixas</title>
+    <style>
+       body {
+            background-color: black;
+        }
+
+        div.conteiner {
+            background-color: aquamarine;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        div.img {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            margin: auto;
+
+        }
+
+        img {
+            width: 80px;
+            margin-top: 20px;
+            margin-left: 37%;
+            border-radius: 49%;
+            
+        }
+
+        p {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        @media screen and (min-width: 768px) {
+            div.conteiner {
+            background-color: aquamarine;
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        div.img {
+            width: 80%; 
+            height: 80%;           
+            background-color: white;
+            margin: auto;
+
+        }
+
+        img {
+            width: 80px;
+            margin-top: 20px;
+            margin-left: 45%;
+            border-radius: 45%;
+            
+        }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="conteiner">
+        <div class="img">
+            <picture>
+                <img src="fotoperfil.png" alt="foto de perfil">
+                <p>
+                    Alan Cleverson
+                </p>
+            </picture>
+        </div>
+    </div>
+    
+</body>
+</html>
